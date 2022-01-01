@@ -4,7 +4,6 @@ const widgetLg = () => {
     const Button1 = ({ type }) => {
         return <button className={"widgetLgButton " + type}>{type}</button>
     }
-
     return (
         <div className="widgetLg">
             <h3 className="widgetLgTitle">Latest transactions</h3>

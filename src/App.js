@@ -7,10 +7,10 @@ function App() {
   return (
     <div>
       <Topbar />
-      <div className="container">
+      {/* <div className="container">
         <Sidebar />
         <Home/>
-      </div>
+      </div> */}
     </div>
   );
 }
